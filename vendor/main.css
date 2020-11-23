@@ -1,0 +1,81 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-size: 0.875rem;
+}
+@media (min-width: 48rem) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+body {
+  box-sizing: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #131313;
+}
+
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #131313;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.lead {
+  font-weight: 400;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #131313;
+  color: #ffffff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:hover {
+  background-color: #000000;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+section.resume-section {
+  min-height: 100vh;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #131313;
+}
